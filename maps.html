@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Maps | Shadow Strike</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+    <div class="logo-box">
+        <span class="logo-icon">◆</span>
+        <h2>SHADOW STRIKE</h2>
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="agents.html">Agents</a>
+        <a href="maps.html">Maps</a>
+        <a href="news.html">News</a>
+    </div>
+
+    <a href="index.html" class="nav-btn">Enter Arena</a>
+</nav>
+
+<!-- MAP PAGE -->
+
+<section class="maps-page">
+
+    <div class="maps-header">
+       <p class="small-title">TACTICAL DATABASE</p>
+
+<h1>
+    SELECT YOUR
+    <span>COMBAT ZONE</span>
+</h1>
+
+<p>
+    Every zone presents unique threats, hidden routes,
+    and strategic opportunities. Study the battlefield
+    before deployment.
+</p>
+    </div>
+
+    <div class="maps-container">
+
+        <!-- LEFT SIDE -->
+
+        <div class="maps-menu">
+
+            <button onclick="changeMap('neon')">
+                NEON CITY
+            </button>
+
+            <button onclick="changeMap('ice')">
+                ICE LAB
+            </button>
+
+            <button onclick="changeMap('crimson')">
+                CRIMSON BASE
+            </button>
+
+        </div>
+
+        <!-- CENTER IMAGE -->
+
+        <div class="map-preview">
+
+            <img
+                id="mapImage"
+                src="assets/photos/map1.jpg"
+                alt="Map">
+
+        </div>
+
+        <!-- RIGHT DETAILS -->
+
+        <div class="map-details">
+
+            <p class="small-title">
+                MAP FILE
+            </p>
+
+            <h2 id="mapName">
+                NEON CITY
+            </h2>
+
+            <h4 id="mapDifficulty">
+                Difficulty: Medium
+            </h4>
+
+            <p id="mapDesc">
+                Neon City is a futuristic urban battlefield
+                filled with glowing streets, vertical combat,
+                and fast-paced engagements.
+            </p>
+
+            <a href="#" class="hero-btn">
+                EXPLORE MAP
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="map-strategy">
+
+    <p class="small-title">FIELD INTEL</p>
+
+    <h2>Map Strategy Guide</h2>
+
+    <div class="strategy-grid">
+
+        <div class="strategy-card">
+            <span>01</span>
+            <h3>Landing Zone</h3>
+            <p>Choose safe entry points and avoid open areas during the first push.</p>
+        </div>
+
+        <div class="strategy-card">
+            <span>02</span>
+            <h3>Control Points</h3>
+            <p>Hold high-ground areas to gain better vision and movement advantage.</p>
+        </div>
+
+        <div class="strategy-card">
+            <span>03</span>
+            <h3>Escape Routes</h3>
+            <p>Always know backup paths when enemies surround your squad.</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="battle-stats">
+
+    <div class="stats-heading">
+        <p class="small-title">LIVE WAR DATA</p>
+        <h2>Battlefield Statistics</h2>
+        <p>Real-time combat intelligence collected from active Shadow Strike zones.</p>
+    </div>
+
+    <div class="stats-grid">
+
+        <div class="stat-box">
+            <span>01</span>
+            <h2>12</h2>
+            <p>Battle Zones</p>
+        </div>
+
+        <div class="stat-box">
+            <span>02</span>
+            <h2>50+</h2>
+            <p>Strategic Routes</p>
+        </div>
+
+        <div class="stat-box">
+            <span>03</span>
+            <h2>200+</h2>
+            <p>Combat Missions</p>
+        </div>
+
+        <div class="stat-box">
+            <span>04</span>
+            <h2>24/7</h2>
+            <p>Active Warfare</p>
+        </div>
+
+    </div>
+
+</section>
+<footer class="game-footer">
+
+    <div class="footer-logo">
+        <h2>SHADOW STRIKE</h2>
+
+        <p>
+            Enter the future of tactical combat.
+        </p>
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 Shadow Strike | Built by Shubhangi
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
